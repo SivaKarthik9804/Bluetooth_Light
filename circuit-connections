@@ -1,0 +1,23 @@
+-> Connecting the HC-05 Bluetooth Module to Arduino
+
+VCC → 5V (Arduino) (Powers the Bluetooth module)
+GND → GND (Arduino) (Common ground connection)
+TX → RX (D2 on Arduino) (Bluetooth sends data to Arduino)
+RX → TX (D3 on Arduino) (Arduino sends data to Bluetooth, use voltage divider if needed)
+
+  
+-️> Connecting the Relay Module to Arduino
+
+Relay IN → Digital Pin 7 (Arduino) (Signal to turn the relay ON/OFF)
+Relay VCC → 5V (Arduino) (Powers the relay module)
+Relay GND → GND (Arduino) (Common ground with Arduino)
+️Connecting the Light Bulb (AC Load) to the Relay
+Live Wire (from AC Supply) → COM (Common Pin on Relay)
+NO (Normally Open) → Live Wire of the Light Bulb
+Neutral (from AC Supply) → Neutral of Light Bulb
+
+
+-> How It Works
+
+When Arduino sends HIGH (1) to the relay, it closes the circuit, turning the light ON.
+When Arduino sends LOW (0) to the relay, it opens the circuit, turning the light OFF.
