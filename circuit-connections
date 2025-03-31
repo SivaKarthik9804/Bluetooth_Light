@@ -8,7 +8,7 @@ RX → TX (D3 on Arduino) (Arduino sends data to Bluetooth, use voltage divider 
   
 -️> Connecting the Relay Module to Arduino
 
-Relay IN → Digital Pin 7 (Arduino) (Signal to turn the relay ON/OFF)
+Relay IN → Digital Pin 13 (Arduino) (Signal to turn the relay ON/OFF)
 Relay VCC → 5V (Arduino) (Powers the relay module)
 Relay GND → GND (Arduino) (Common ground with Arduino)
 ️Connecting the Light Bulb (AC Load) to the Relay
