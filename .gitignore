@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.bin
+*.elf
+*.hex
+
+# Arduino & ESP32 build files
+*.o
+*.a
+*.d
+*.out
+.pio/
+.vscode/
+
+# Temporary & log files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
