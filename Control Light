@@ -1,0 +1,6 @@
+Install Bluetooth Terminal App (e.g., "Bluetooth Terminal HC-05" from Play Store).
+Pair HC-05 with your phone (default PIN: 1234 or 0000).
+Open the app and connect to HC-05.
+Send:
+     "1" → Light ON
+     "0" → Light OFF
