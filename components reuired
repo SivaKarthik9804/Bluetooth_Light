@@ -1,0 +1,6 @@
+Arduino Uno / ESP32 / ESP8266
+Bluetooth Module (HC-05 or HC-06)
+LED / Light Bulb (with relay module if using AC)
+Resistors (220Ω for LED, if needed)
+Power Supply (5V for Arduino, 3.3V for ESP32)
+Smartphone (to send Bluetooth commands)
