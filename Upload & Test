@@ -1,0 +1,9 @@
+Connect Arduino to PC and open Arduino IDE.
+
+Select Tools > Board > Arduino Uno (or your board).
+
+Select Tools > Port > COMX (your port).
+
+Click Upload.
+
+Open Serial Monitor, set baud rate to 9600, and test with 1 and 0.
